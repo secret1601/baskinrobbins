@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/faviconV2.png">
+
+    <link rel="apple-touch-icon-precomposed" href="images/mobile_web_icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>베스킨라빈스</title>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/respond.min.js"></script>
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="js/swiper/swiper.min.css">
+    <script src="js/swiper/swiper.min.js"></script>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <!-- 자바스크립트 연결 -->
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <!-- 모달창 -->
+    <div class="modal">
+        <div class="modal-wrap">
+            <span class="modal-txt">
+                이 사이트는 스터디용으로 제작되었으며<br>
+                모든 리소스는 원저작자에게 있습니다
+                <em>본 사이트는 chrome에 최적화 되어있습니다</em>
+            </span>
+            <button class="modal-close">
+                close
+            </button>
+        </div>
+    </div>
+    <!--// 모달창 -->
+
+    <div class="wrap">
+
+        <!-- 헤더영역 -->
+        <header class="header">
+            <!-- 헤더 탑 영역 -->
+            <div class="header-top">
+
+                <div class="container">
+
+                    <ul class="header-sns clearfix">
+                        <li><a href="#">페북</a></li>
+                        <li><a href="#">트위터</a></li>
+                        <li><a href="#">블로그</a></li>
+                        <li><a href="#">인스타</a></li>
+                        <li><a href="#">유튜브</a></li>
+                    </ul>
+
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="./images/logo_baskinrobbins.png" alt="logo">
+                        </a>
+                    </div>
+
+                    <div class="help">
+                        <a href="#" class="notice">고객센터</a>
+                        <a href="#" class="contact">contact us</a>
+                        <a href="#" class="header-search">검색아이콘</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="header-bottom">
+                <nav class="gnb">
+                    <div class="container">
+                        
+                        <nav class="member">
+                            <ul class="clearfix">
+                                <li class="login">
+                                    <a href="#"><span>login</span></a>
+                                </li>
+                                <li class="join">
+                                    <a href="#"><span>join</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="top-menu-wrap">
+                            <a href="#" class="fa-month"></a>
+
+                            <ul class="gnb-list clearfix">
+                                <li>
+                                    <a href="#">menu</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">아이스크림</a></li>
+                                        <li><a href="#">아이스크림케이크</a></li>
+                                        <li><a href="#">음료</a></li>
+                                        <li><a href="#">커피</a></li>
+                                        <li><a href="#">디저트</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">영양성분</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">아이스크림</a></li>
+                                        <li><a href="#">음료</a></li>
+                                        <li><a href="#">커피</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">event</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">진행중이벤트</a></li>
+                                        <li><a href="#">당첨자발표</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">store</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">매장찾기</a></li>
+                                        <li><a href="#">고객센터</a></li>
+                                        <li><a href="#">단체주문</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">about</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">공지사항</a></li>
+                                        <li><a href="#">보도자료</a></li>
+                                        <li><a href="#">채용정보</a></li>
+                                        <li><a href="#">점포개설문의</a></li>
+                                        <li><a href="#">contact us</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <div class="gnb-img">
+                                <div class="q-r">큐알이미지</div>
+                                <a href="#" class="gnb-ice">gnb아이스크림</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </nav>
+
+                <!-- <div class="gnb-bg">
+                </div> -->
+            </div>
+
+        </header>
+        <!--// 헤더 영역 END -->
+
+        <!-- 메인 배너 영역 -->
+        <div class="main-banner">
+            <div class="main-banner-top">
+                <div class="main-banner-top-big">
+                    <a href="#"></a>
+                </div>
+                <div class="main-banner-top-small">
+                    <a href="#"></a>
+                </div>
+            </div>
+
+            <!-- 슬라이드 영역 -->
+            <div class="banner-slide">
+                <div class="swiper-container sw-banner-slide">
+                    <div class="swiper-wrapper swiper-no-swiping">
+
+                        <div class="swiper-slide ">
+                            <div class="slide-box-1"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-box-2"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-box-3"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-box-4"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sw-banner-slide-prev"></div>
+                <div class="sw-banner-slide-next"></div>
+                <div class="swiper-pagination sw-banner-slide-pg"></div>
+            </div>
+        </div>
+        <!--// 메인 배너 영역 END -->
+
+        <!-- br event 영역 -->
+        <div class="event">
+            <div class="container">
+
+                <span class="event-title">
+                    <img src="./images/h_event.png" alt="이벤트타이틀">
+                </span>
+
+                <div class="event-box-list clearfix">
+
+                    <div class="swiper-container sw-event-box">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide"><li>
+                                    <a href="#" class="event-box">
+                                        <img src="./images/banner_delivery.png" alt="">
+                                        <span class="event-box-store">
+                                            <img src="./images/stit_store.gif" alt="">
+                                        </span>
+                                        <span class="event-box-title">해피오더 딜리버리로 간편하게 주문하세요!</span>
+                                        <span class="event-box-txt">상시진행</span>
+                                    </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                    <a href="#" class="event-box">
+                                        <img src="./images/banner_delivery_bm.png" alt="">
+                                        <span class="event-box-store">
+                                            <img src="./images/stit_store.gif" alt="">
+                                        </span>
+                                        <span class="event-box-title">배달의 민족에서 빠르게 주문하세요!</span>
+                                        <span class="event-box-txt">상시진행</span>
+                                    </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                    <a href="#" class="event-box">
+                                        <img src="./images/banner_delivery_ygy.png" alt="">
+                                        <span class="event-box-store">
+                                            <img src="./images/stit_store.gif" alt="">
+                                        </span>
+                                        <span class="event-box-title">요기요에서 손쉽게 주문하세요!</span>
+                                        <span class="event-box-txt">상시진행</span>
+                                    </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                    <a href="#" class="event-box">
+                                        <img src="./images/banner_delivery_kakao.png" alt="">
+                                        <span class="event-box-store">
+                                            <img src="./images/stit_store.gif" alt="">
+                                        </span>
+                                        <span class="event-box-title">카카오톡 주문하기에서 편리하게 주문하세요!</span>
+                                        <span class="event-box-txt">상시진행</span>
+                                    </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                    <a href="#" class="event-box">
+                                        <img src="./images/event_5.png" alt="">
+                                        <span class="event-box-store">
+                                            <img src="./images/stit_store.gif" alt="">
+                                        </span>
+                                        <span class="event-box-title">고소한 오트밀크와 깔끔한 콜드브루의 만남, 콜드브루 오트라떼 출시!</span>
+                                        <span class="event-box-txt">상시진행</span>
+                                    </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                    <a href="#" class="event-box">
+                                        <img src="./images/event_6.png" alt="">
+                                        <span class="event-box-store">
+                                            <img src="./images/stit_store.gif" alt="">
+                                        </span>
+                                        <span class="event-box-title">KT 멤버십 고객이라면 누구나 파인트 30% 할인!</span>
+                                        <span class="event-box-txt">상시진행</span>
+                                    </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                    <a href="#" class="event-box">
+                                        <img src="./images/event_7.png" alt="">
+                                        <span class="event-box-store">
+                                            <img src="./images/stit_store.gif" alt="">
+                                        </span>
+                                        <span class="event-box-title">현대카드 M포인트 50% 사용</span>
+                                        <span class="event-box-txt">상시진행</span>
+                                    </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                    <a href="#" class="event-box">
+                                        <img src="./images/event_8.png" alt="">
+                                        <span class="event-box-store">
+                                            <img src="./images/stit_store.gif" alt="">
+                                        </span>
+                                        <span class="event-box-title">제휴 할인 카드 혜택 안내</span>
+                                        <span class="event-box-txt">상시진행</span>
+                                    </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                    <a href="#" class="event-box">
+                                        <img src="./images/event_9.png" alt="">
+                                        <span class="event-box-store">
+                                            <img src="./images/stit_store.gif" alt="">
+                                        </span>
+                                        <span class="event-box-title">2018 한글날 기념 무료 글꼴 공개! 배스킨라빈스체</span>
+                                        <span class="event-box-txt">상시진행</span>
+                                    </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                    <a href="#" class="event-box">
+                                        <img src="./images/event_10.png" alt="">
+                                        <span class="event-box-store">
+                                            <img src="./images/stit_store.gif" alt="">
+                                        </span>
+                                        <span class="event-box-title">1회용 컵 사용 줄이기 안내</span>
+                                        <span class="event-box-txt">상시진행</span>
+                                    </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                    <a href="#" class="event-box">
+                                        <img src="./images/event_11.png" alt="">
+                                        <span class="event-box-store">
+                                            <img src="./images/stit_store.gif" alt="">
+                                        </span>
+                                        <span class="event-box-title">2021년 4분기 고객 BEST 칭찬점포 안내</span>
+                                        <span class="event-box-txt">상시진행</span>
+                                    </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="sw-event-control">
+                        <div class="swiper-pagination sw-event-pg"></div>
+                    </div>
+
+                </ul>
+
+                <!-- <ul class="event-swiper-bt">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                </ul> -->
+
+            </div>
+        </div>
+        <!--// br event 영역 END -->
+
+        <!-- br menu 영역 -->
+        <div class="br-menu">
+            <div class="container">
+                <span class="br-menu-title">
+                    <img src="./images/h_menu.png" alt="br-menu">
+                </span>
+                <div class="br-menu-list">
+                    <div class="icecream">
+                        <a href="#"></a>
+                    </div>
+                    <div class="icecreamcake">
+                        <a href="#"></a>
+                    </div>
+                    <div class="beverage">
+                        <a href="#"></a>
+                    </div>
+                    <div class="coffee">
+                        <a href="#"></a>
+                    </div>
+                    <div class="gift">
+                        <a href="#"></a>
+                    </div>
+                    <div class="dessert">
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--// br menu 영역 END-->
+
+        <!-- br store, happy order, sns 영역 -->
+        <div class="info">
+            <div class="container">
+
+                <div class="info-box-wrap clearfix">
+                    <div class="info-box">
+                        <span>
+                            <img src="./images/h_store.png" alt="br-store">
+                        </span>
+                        <div>
+                            <img src="./images/img_store.jpg" alt="store">
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <span>
+                            <img src="./images/h_happyorder_delivery.png" alt="happy-title">
+                        </span>
+                        <div>
+                            <img src="./images/img_happyorder_delivery.png" alt="delivery">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sns">
+
+                    <span class="sns-title">
+                        <img src="./images/h_sns.png" alt="">
+                    </span>
+
+                    <ul class="sns-list">
+                        <li>
+                            <a href="#"><img src="./images/sns_facebook.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/sns_twitter.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/sns_blog.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/sns_instagram.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/sns_youtube.png" alt=""></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+        <!--// br store, happy order, sns 영역 END -->
+
+        <!-- 베라 인스타그램 영역 -->
+        <div class="instagram">
+            <div class="container">
+
+                <div class="instagram-title">
+                    <span>
+                        <img src="./images/tit_sns.png" alt="instagram-title-img">
+                    </span>
+                </div>
+
+                <div class="instagram-box">
+                    <ul class="instagram-box-list clearfix">
+                        <li>
+                            <img src="./images/insta-1.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/insta-2.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/insta-3.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/insta-4.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/insta-5.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/insta-6.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/insta-7.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/insta-8.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/insta-9.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/insta-10.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/insta-11.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/insta-12.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/insta-13.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/insta-14.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/insta-15.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!--// 베라 인스타그램 영역 END-->
+
+        <!-- 하단 영역 -->
+        <footer class="footer">
+
+            <div class="footer-help">
+                <div class="container">
+                    <ul class="footer-help-list clearfix">
+                        <li style="width: 12%;"><a href="#">점포개설문의</a></li>
+                        <li style="width: 12%;"><a href="#">채용문의</a></li>
+                        <li style="width: 12%;"><a href="#">윤리신고센터</a></li>
+                        <li style="width: 12%;"><a href="#">이용약관</a></li>
+                        <li style="width: 15%;"><a href="#"><i class="bold-pink">개인정보처리방침</i></a></li>
+                        <li style="width: 20%;"><a href="#">영상정보처리기기운영관리방침</a></li>
+                        <li style="width: 17%;"><a href="#">거래희망회사 사전등록</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-brand">
+                <div class="container clearfix">
+                    <ul class="footer-brand-list">
+                        <li>
+                            <a href="#"><img src="./images/btn_happypoint.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/btn_happymarket.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/btn_spc_story.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/btn_norton.gif" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/btn_ccm.gif" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/btn_ksa.png" alt=""></a>
+                        </li>
+                    </ul>
+                    <button class="footer-family-bt">
+                        <div class="family-site">      <!-- addClass .bt-off-->
+                            FAMILY SITE<i class="bt-off"></i>
+                        </div>
+                        <ul class="family-site-list">
+                            <li><a href="#">베스킨스쿨</a></li>
+                            <li><a href="#">SPC그룹사이트</a></li>
+                            <li><a href="#">SPCMAGAZINE</a></li>
+                            <li><a href="#">BR코리아</a></li>
+                            <li><a href="#">해피포인트카드</a></li>
+                            <li><a href="#">파스쿠찌</a></li>
+                            <li><a href="#">삼립</a></li>
+                            <li><a href="#">파리바게트</a></li>
+                            <li><a href="#">던킨도너츠</a></li>
+                        </ul>
+                    </button>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+
+                <div class="footer-logo">
+                    <img src="./images//footer_logo.png" alt="footer-logo">
+                </div>
+
+                <div class="footer-info-1">
+                    <span>사업자 등록번호 : 303-81-09535</span>
+                    <span>비알코리아(주) 대표이사 도세호</span>
+                    <address class="address">
+                        서울특별시 서초구 남부순환로 2620(양재동 11-149번지)
+                    </address>
+                </div>
+
+                <div class="footer-info-2">
+                    <span>TEL : 080-555-3131</span>
+                    <span>개인정보관리책임자 : 김경우</span>
+                </div>
+
+                <div class="footer-copy">
+                    <span>
+                        Copyright ⓒ 2016 BRKOREA Company. All Rights Reserved.
+                    </span>
+                </div>
+            </div>
+        </footer>
+        <!-- // 하단 영역 -->
+
+    </div>
+</body>
+
+</html>
